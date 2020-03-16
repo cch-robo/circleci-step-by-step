@@ -1,0 +1,8 @@
+version: 2
+jobs:
+  build:
+    docker:
+    image - circleci: circleci/openjdk：８-jdk-browthers
+  steps:
+    - checkout
+    - run: echo "Hello Circle CI"
